@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <title>Menu</title>
-        <script src="http://localhost:8082/_helper.js"></script>
         <style>
             * {
                 font-family: C059;

@@ -30,25 +30,25 @@ VALUES ('admin', '{SHA}0DPiKuNIrrVmD8IUCuw1hQxNqZc=');
 
 
 INSERT INTO menu (name, description, price)
-VALUES ('ENGLISH BREAKFAST', 'Very tasty', 10);
+VALUES ('Breakfast', 'Very tasty', 10);
 
 INSERT INTO menu (name, description, price)
-VALUES ('Black Americano', 'Served as a 12oz drink All our Barista prepared drinks are also available decaffeinated',
+VALUES ('Black Americano', 'Very tasty',
         3);
 
 INSERT INTO menu (name, description, price)
-VALUES ('Cappuccino', 'Served as a 12oz drink All our Barista prepared drinks are also available decaffeinated', 3);
+VALUES ('Cappuccino', 'Very tasty', 3);
 
 INSERT INTO menu (name, description, price)
-VALUES ('Latte', 'Served as a 12oz drink All our Barista prepared drinks are also available decaffeinated', 3);
+VALUES ('Latte', 'Very tasty', 3);
 
 INSERT INTO menu (name, description, price)
-VALUES ('HOMEMADE SAUSAGE ROLL',
-        'Honey roasted sausage meat mixed with caramelised onion chutney and wholegrain mustard wrapped in a flaky puff pastr',
+VALUES ('Espresso',
+        'Very tasty',
         9);
 
 INSERT INTO menu (name, description, price)
-VALUES ('THE CLUB SANDWICH', 'Chicken Breast, Crispy Bacon, Lettuce, Tomato & Mayonnaise', 7);
+VALUES ('Sandwich', 'Very tasty', 7);
 
 INSERT INTO menu (name, description, price)
-VALUES ('THE PLOUGHMAN SANDWICH', 'Cheddar Cheese, Honey Roasted Ham & Caramelised Onion Chutney', 7);
+VALUES ('Cheese Sandwich', 'Very tasty', 7);
