@@ -1,0 +1,21 @@
+AuthName "Login"
+AuthType Basic
+Require valid-user
+<IfModule mod_rewrite.c>
+RewriteEngine On
+</IfModule>
+<Files files.php>
+    Require all granted
+</Files>
+<Files graphs.php>
+    Require all granted
+</Files>
+<Files menu.php>
+    Require all granted
+</Files>
+<Files page.php>
+    Require all granted
+</Files>
+<Files *.css>
+    Require all granted
+</Files>
