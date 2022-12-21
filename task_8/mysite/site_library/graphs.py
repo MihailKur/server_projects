@@ -15,10 +15,10 @@ def plot_random_numbers(n):
         objects = ("2018", "2019", "2020", "2021", "2022")
         years = np.arange(len(objects))
 
-        plt.bar(years, humans, align="center", alpha=0.5, color="green")
+        plt.bar(years, humans, align="center", alpha=0.9, color="red")
         plt.xticks(years, objects, color="blue")
         plt.ylabel("Работники", color="blue")
-        plt.title("Статистика библиотеки за 5 лет", color="blue")
+        plt.title("Статистика кафе", color="blue")
         try:
             os.remove(f"site_library/templates/site_library/static/graph{i}.png")
         except FileNotFoundError:
