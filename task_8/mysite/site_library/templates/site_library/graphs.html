@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cafe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " style='margin-left: 17px;'>
+        <a class="navbar-brand" href="/">Cafe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/"><strong>Главная</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="meal">Продукты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cafes">Кафе</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admin/">Панель Администратора</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <center><h4 style='margin-left: 15px;'>Статистика библиотеки</h4></center>
+    <div class="graphs" style="display:flex; flex-wrap: wrap; align-items: center; justify-content: space-around;">
+        {%for g in graphs%}
+        <div class="graph" style="width: 400px; height: 400px; margin: 10px;">
+            {% load static %}
+            <img src="{{g}}" alt="graph" style="width: 350px; height: 350px;">
+        </div>
+    {%endfor%}
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
